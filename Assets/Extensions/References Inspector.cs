@@ -22,7 +22,7 @@ namespace Interface.Editor
         private readonly BindingFlags _flags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance;
 
 
-        [MenuItem("Extensions/Windows/References Inspector")]
+        [MenuItem("Extensions/Windows/References Inspector #c")]
         private static void ShowWindow()
         {
             var window = GetWindow<ReferencesInspectorEditor>(false, "References Inspector", true);
